@@ -3,12 +3,11 @@ def print_(obj):
 for i in range(1,101):
 	if i % 15 == 0:
 		print_('피즈버즈')
+	elif i % 3 == 0:
+		print_('FIZZ')
+	elif i % 5 == 0:
+		print_('BUZZ')
 	else:
-		if i % 3 == 0:
-			print_('피즈')
-		elif i % 5 == 0:
-			print_('버즈')
-		else:
-			print_(i)
+		print_(i)
 
 print('') 
