@@ -1,3 +1,3 @@
 # fizzbuzz_inclass
-
-this is update
+this file is for inclass practice.
+this is update.
