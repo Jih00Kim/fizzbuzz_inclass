@@ -2,14 +2,12 @@ import random
 user_name = input('Enter your name:')
 answer = random.randint(1,100)
 
-# for debugging
-print(answer)
 for i in range(3):
 	if i != 2 :
-		guess = int(input('welcome, {}. Guess the nimber! :'.format(user_name)))
+		guess = int(input('welcome, {}. Guess the number! :'.format(user_name)))
 
 #for debugging.
-		print(answer,guess)
+		print(guess)
 
 		if guess == answer:
 			print('correct!')
