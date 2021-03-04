@@ -1,12 +1,14 @@
+def print_(obj):
+	print(obj, end='\t')
 for i in range(1,101):
 	if i % 15 == 0:
-		print('fizzbuzz')
+		print_('fizzbuzz')
 	else:
 		if i % 3 == 0:
-			print('fizz')
+			print_('fizz')
 		elif i % 5 == 0:
-			print('buzz')
+			print_('buzz')
 		else:
-			print(i)
+			print_(i)
 
 print('') 
